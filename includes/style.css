@@ -1,0 +1,103 @@
+.sidebar {
+	height: 500px;
+	width:250px;
+	margin-top:50px;
+	float: left;
+}
+
+#container{
+	height: 800px;
+	width: 1500px;
+}
+body
+{
+	min-width:900px;
+	margin:0;
+	padding:0;
+
+}
+a:visited
+{
+	color:#00FF00;
+}
+#header
+{
+	min-width:900px;
+	background-image:url('../img/logo.png');
+	background-repeat:no-repeat;
+	padding-left:20px;
+	padding-top:20px;
+	height:170px;
+	width:100%;
+	background-color:#003399;
+}
+
+#sidebar
+{
+	padding-top:30px;
+	padding-left:30px;
+	height:100%;
+	width:200px;
+	float:left;
+	color:#FFFFFF;
+	background-color:#003399;
+	font-family:"Arial";
+}
+#content
+{
+	text-indent:5px;
+	width:100%;
+	height:100%;
+	background-color:#FFFFFF;
+	color:#000000;
+}
+
+#menu
+{
+	margin-top:0;
+	margin-left:5;
+	padding:0;
+}
+#cart {
+	background-image:url('http://www.inmotionhosting.com/support/images/stories/icons/ecommerce/empty-cart-dark.png');
+	background-size:120px 120px;
+	background-repeat:no-repeat;
+	background-position:fixed;
+	width: 150px;
+	height: 150px;
+	float:right;
+	margin-top:20px;
+	padding-top:15px;
+	text-indent:30px;
+}
+#nav
+{
+	float:right;
+	padding-left:50px;
+	margin-left:50px;
+	list-style-type:none;
+}
+#nav a
+{
+	float:left;
+	width:6em;
+	text-decoration:none;
+	color:white;
+	background-color:purple;
+	padding:0.2em 0.6em;
+	border-right:1px solid white;
+}
+#nav a:hover {background-color:#ff3300;}
+#nav li {display:inline;}
+
+#result {
+width: 80%;
+padding-left: 20px;
+margin-left: 20px;
+}
+
+.pelem {
+float: left;
+width:150px;
+height:150px;
+}
